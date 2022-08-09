@@ -1,0 +1,26 @@
+package Ifsc;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class primeiroProjetoJava {
+
+	public static void main(String[] args) {
+
+	List<String> lista = new ArrayList<>();
+	lista.add("Petterson");
+	lista.add("Redson");
+	lista.add("null");
+	lista.add("Mateus");
+	lista.add("Bruna");
+	
+	
+	
+	for(String el : lista) {
+		System.out.println(el);
+	}
+	
+	
+	}
+
+}
